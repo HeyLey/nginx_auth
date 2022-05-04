@@ -1,0 +1,46 @@
+<!--DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+      <div class="tabs is-centered">
+  <ul>
+    <li class="is-active"><a>Asian Tables</a></li>
+    <li><a>access.log</a></li>
+    <li><a>error.log</a></li>
+  </ul>
+</div>
+  </head>
+
+</html-->
+
+
+{% block body %}
+
+<div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#basics" aria-controls="basics" role="tab" data-toggle="tab">Basics</a></li>
+    <li role="presentation"><a href="#wdev" aria-controls="wdev" role="tab" data-toggle="tab">Web Dev</a></li>
+    <li role="presentation"><a href="#dan" aria-controls="dan" role="tab" data-toggle="tab">Data Analysis</a></li>
+
+  </ul>
+
+  <!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade in active" id="basics">
+	<ul>
+	   <li>dfadsfasf</li>
+	   <li>jjh</li>
+	   <li>assggg</li>
+	</ul>
+  </div>
+
+</div>
+
+</div>
+
+{% endblock %}
